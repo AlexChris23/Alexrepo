@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taqueria Launcher</title>
+    </head>
+
+    <body>
+        <header>
+        <h1>Taqueria desde 2022</h1>
+        </header>
+
+        <img src="./Taqueria_launcher.png" alt="Logo Taqueria launcher"/>
+
+        <section>
+        <h2>Sabores y precios</h2>
+        <h3>Combo grande de 5 tacos</h3>
+        <p>Incluye 2 y salsas verdura</p>
+        <ul>
+            <li>Chorizo................$10</li>
+            <li>Bisteck................$12</li>
+            <li>Lengua................$16</li>
+            <li>Pastor................$12</li>
+        </ul>
+        <h3>Combo Mediano de 3 tacos</h3>
+        <p>Incluye 2 salsas</p>
+        <ul>
+            <li>Chorizo................$10</li>
+            <li>Bisteck................$12</li>
+            <li>Lengua................$16</li>
+            <li>Pastor................$12</li>
+        </ul>
+        <h3>Pequeños</h3>
+        <p>Solo incluye los tacos y verdura incluida en el taco</p>
+        <ul>
+            <li>Chorizo................$10</li>
+            <li>Bisteck................$12</li>
+            <li>Lengua................$16</li>
+            <li>Pastor................$12</li>
+        </ul>
+
+        <h3>Combinados</h3>
+        <dl>
+            <dt><b>Chorizo y bisteck</b>...............$18</dt>
+            <dd>- Chorizo con bisteck -</dd>
+            <li><b>Pator y chorizo</b>..........$20</li>
+            <dd>- Pastor con chorizo -</dd>
+        </dl>
+
+        <h3>Acompañamiento al gusto</h3>
+        <dl>
+            <dt>2 salsas y verdura a tu elección...............$30</dt>
+            <dd>- Se agregan dos salsas y cantidad de verdura a tu gusto -</dd>
+            <li>2 salsas o verdura a tu gusto..........$15</li>
+            <dd>- Se agrega dos salsas o cantidad de verdura a tu gusto -</dd>
+        </dl>
+        </section>
+        <hr>
+
+        <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/QDNXXDA2wpYbPtkx5" target="_blank">Sara 4537, Guadalupe Tepeyac</a></td>
+                <td>L-D 8am - 6pm</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/qJZFjKZpqCxpdmeQ6" target="_blank">Cuauhtemoc 4665</a></td>
+                <td>L-D 6am - 8pm</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/RdWy4qpNuuKJH98G9" target="_blank">Antonio 4537</a></td>
+                <td>L-D 11am - 9pm</td>
+            </tr>
+        </table>
+        </section>
+        <hr>
+
+            <section>
+                <h2>Pedidos</h2>
+                <h3>Haz tu pedido aqui</h3>
+
+                    <form action="">
+                        <p>¿De que Taqueria quieres?</p>
+                        <select>
+                            <option value="Norte">Norte</option>
+                            <option value="Centro">Centro</option>
+                            <option value="Sur">Sur</option>
+                        </select>
+
+                        <p>¿De que tacos quieres?</p>
+                        <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+                        <label for="Chorizo">Chorizo</label>
+                        <input type="number" id="Chorizonumber" name="Chorizonumber" placeholder="¿Cuantos?">
+                        <br>
+                        <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+                        <label for="Bisteck">Bisteck</label>
+                        <input type="number" id="Bistecknumber" name="Bistecknumber" placeholder="¿Cuantos?">
+                        <br>
+                        <input type="checkbox" id="Lengua" name="Lengua" value="Lengua">
+                        <label for="Lengua">Lengua</label>
+                        <input type="number" id="Lenguanumber" name="Lenguanumber" placeholder="¿Cuantos?">
+                        <br>
+                        <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+                        <label for="Pastor">Pastor</label>
+                        <input type="number" id="Pastornumber" name="Pastornumber" placeholder="¿Cuantos?">
+
+                        <br><br>
+
+                        <label for="Nombre">Nombre</label><br>
+                        <input type="text" id="Nombre" name="Nombre" placeholder="¿Como te llamas?">
+
+                        <br><br>
+
+                        <label for="Telefono">Telefono</label><br>
+                        <input type="text" id="Telefono" name="Telefono" placeholder="¿Cual es tu numero telefonico?">
+                        
+                        <br><br>
+
+                        <label for="Direccion">Direccion</label><br>
+                        <input type="text" id="Direccion" name="Direccion" placeholder="¿Cual es tu direccion?">
+                        
+                        <br><br>
+
+                        <button type="submit">Enviar pedido</button>
+                    </form>
+            </section>
+    </body>
+</html>
