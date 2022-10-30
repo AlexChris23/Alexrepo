@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasteleria Launcher</title>
+    </head>
+
+    <body>
+        <header>
+        <h1>Pasteleria Launcher desde 2022</h1>
+        </header>
+
+        <img src="./Pasteleria Launcher.png" alt="Loogo pasteleria launcher"/>
+
+        <section>
+        <h2>Sabores y precios</h2>
+        <h3>Pasteles grandes</h3>
+        <p>Incluye 2 velas en forma de numeros</p>
+        <ul>
+            <li>Chocolate................$300</li>
+            <li>Napolitano................$200</li>
+            <li>Tres leches................$400</li>
+            <li>Flan................$250</li>
+        </ul>
+        <h3>Medianos</h3>
+        <p>Incluye un paquete de 5 velas normales</p>
+        <ul>
+            <li>Chocolate................$170</li>
+            <li>Napolitano................$120</li>
+            <li>Tres leches................$220</li>
+            <li>Flan................$140</li>
+        </ul>
+        <h3>Pequeños</h3>
+        <p>Incluye un texto con mermelada en el pastel</p>
+        <ul>
+            <li>Chocolate................$80</li>
+            <li>Napolitano................$70</li>
+            <li>Tres leches................$90</li>
+            <li>Flan................$100</li>
+        </ul>
+
+        <h3>Combinados</h3>
+        <dl>
+            <dt><b>Chocoflan</b>...............$500</dt>
+            <dd>- Choclate la parte de abajo, flan la parte de arriba -</dd>
+            <li><b>Tres leches napolitano</b>..........$400</li>
+            <dd>- Mitad napolitano y mitad tres leches -</dd>
+        </dl>
+
+        <h3>Adornar a gusto</h3>
+        <dl>
+            <dt>Velas de numeros y texto en pastel...............$70</dt>
+            <dd>- Se agrega el costo al pastel de tu preferencia -</dd>
+            <li>Paquete de velas y texto..........$50</li>
+            <dd>- Se agrega el costo al pastel de tu preferencia -</dd>
+        </dl>
+        </section>
+        <hr>
+
+        <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/QDNXXDA2wpYbPtkx5" target="_blank">Sara 4537, Guadalupe Tepeyac</a></td>
+                <td>L-D 8am - 6pm</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/qJZFjKZpqCxpdmeQ6" target="_blank">Cuauhtemoc 4665</a></td>
+                <td>L-D 6am - 8pm</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/RdWy4qpNuuKJH98G9" target="_blank">Antonio 4537</a></td>
+                <td>L-D 11am - 9pm</td>
+            </tr>
+        </table>
+        </section>
+        <hr>
+
+            <section>
+                <h2>Pedidos</h2>
+                <h3>Haz tu pedido aqui</h3>
+
+                    <form action="">
+                        <p>¿De que pasteleria quieres?</p>
+                        <select>
+                            <option value="Norte">Norte</option>
+                            <option value="Centro">Centro</option>
+                            <option value="Sur">Sur</option>
+                        </select>
+
+                        <p>¿De que pasteles quieres?</p>
+                        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+                        <label for="Chocolate">Chocolate</label>
+                        <input type="number" id="Chocolatenumber" name="Chocolatenumber" placeholder="¿Cuantos?">
+                        <br>
+                        <input type="checkbox" id="Napolitano" name="Napolitano" value="Napolitano">
+                        <label for="Napolitano">Napolitano</label>
+                        <input type="number" id="Napolitanonumber" name="Napolitanonumber" placeholder="¿Cuantos?">
+                        <br>
+                        <input type="checkbox" id="Tres leches" name="Tres leches" value="Tres leches">
+                        <label for="Tres leches">Tres leches</label>
+                        <input type="number" id="Tres lechesnumber" name="Tres lechesnumber" placeholder="¿Cuantos?">
+                        <br>
+                        <input type="checkbox" id="Flan" name="Flan" value="Flan">
+                        <label for="Flan">Flan</label>
+                        <input type="number" id="Flannumber" name="Flannumber" placeholder="¿Cuantos?">
+
+                        <br><br>
+
+                        <label for="Nombre">Nombre</label><br>
+                        <input type="text" id="Nombre" name="Nombre" placeholder="¿Como te llamas?">
+
+                        <br><br>
+
+                        <label for="Telefono">Telefono</label><br>
+                        <input type="text" id="Telefono" name="Telefono" placeholder="¿Cual es tu numero telefonico?">
+                        
+                        <br><br>
+
+                        <label for="Direccion">Direccion</label><br>
+                        <input type="text" id="Direccion" name="Direccion" placeholder="¿Cual es tu direccion?">
+                        
+                        <br><br>
+
+                        <button type="submit">Enviar pedido</button>
+                    </form>
+            </section>
+    </body>
+</html>
